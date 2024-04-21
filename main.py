@@ -14,7 +14,7 @@ def add_white_background(input_image_path, output_image_path):
     bg.paste(processed_image, (0, 0), processed_image)
     bg.save(output_image_path)
 
-input_image_path = r"images/image.jpg"
+input_image_path = r"images/image.webp"
 output_image_path = r"images/output_image.png"
 
 remove_white_background(input_image_path, output_image_path)
